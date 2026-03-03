@@ -1,0 +1,245 @@
+{
+  "configById": {
+    "Image!3vh4ctn": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [0, 0, 0],
+        "targetOffset": [0, 0, 0],
+        "targetOrientation": [0, 0, 0, 1],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/CAM_FRONT/image_rect_compressed",
+        "calibrationTopic": "/CAM_FRONT/camera_info",
+        "annotations": {
+          "/CAM_FRONT/annotations": {
+            "visible": true
+          }
+        }
+      }
+    },
+    "3D!18i6zy7": {
+      "layers": {
+        "845139cb-26bc-40b3-8161-8ab60af4baf5": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "845139cb-26bc-40b3-8161-8ab60af4baf5",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0],
+          "order": 1
+        }
+      },
+      "cameraState": {
+        "perspective": true,
+        "distance": 16.29,
+        "phi": 69.15,
+        "thetaOffset": 80.77,
+        "targetOffset": [2.18, 0.62, 0],
+        "target": [0, 0, 0],
+        "targetOrientation": [0, 0, 0, 1],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "followTf": "base_link",
+      "scene": {
+        "enableStats": false
+      },
+      "transforms": {},
+      "topics": {
+        "/CAM_BACK_LEFT/image_rect_compressed": {
+          "visible": true,
+          "cameraInfoTopic": "/CAM_BACK_LEFT/camera_info"
+        },
+        "/CAM_BACK_RIGHT/image_rect_compressed": {
+          "visible": true,
+          "cameraInfoTopic": "/CAM_BACK_RIGHT/camera_info"
+        },
+        "/CAM_BACK/image_rect_compressed": {
+          "visible": true,
+          "cameraInfoTopic": "/CAM_BACK/camera_info"
+        },
+        "/CAM_FRONT_LEFT/image_rect_compressed": {
+          "visible": true,
+          "cameraInfoTopic": "/CAM_FRONT_LEFT/camera_info"
+        },
+        "/CAM_FRONT_RIGHT/image_rect_compressed": {
+          "visible": true,
+          "cameraInfoTopic": "/CAM_FRONT_RIGHT/camera_info"
+        },
+        "/CAM_FRONT/image_rect_compressed": {
+          "visible": true,
+          "cameraInfoTopic": "/CAM_FRONT/camera_info"
+        },
+        "/CAM_BACK_LEFT/camera_info": {
+          "visible": true
+        },
+        "/CAM_BACK_RIGHT/camera_info": {
+          "visible": true
+        },
+        "/CAM_BACK/camera_info": {
+          "visible": true
+        },
+        "/CAM_FRONT_LEFT/camera_info": {
+          "visible": true
+        },
+        "/CAM_FRONT_RIGHT/camera_info": {
+          "visible": true
+        },
+        "/CAM_FRONT/camera_info": {
+          "visible": true
+        },
+        "/CAM_BACK_LEFT/annotations": {
+          "visible": true
+        },
+        "/CAM_BACK_RIGHT/annotations": {
+          "visible": true
+        },
+        "/CAM_BACK/annotations": {
+          "visible": true
+        },
+        "/CAM_FRONT_LEFT/annotations": {
+          "visible": true
+        },
+        "/CAM_FRONT_RIGHT/annotations": {
+          "visible": true
+        },
+        "/CAM_FRONT/annotations": {
+          "visible": true
+        },
+        "/markers/annotations": {
+          "visible": true
+        },
+        "/markers/car": {
+          "visible": true
+        },
+        "/semantic_map": {
+          "visible": true
+        },
+        "/drivable_area": {
+          "visible": true,
+          "colorField": "drivable_area",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/map": {
+          "visible": true,
+          "colorField": "alpha",
+          "colorMode": "rgba-fields",
+          "colorMap": "turbo"
+        },
+        "/LIDAR_TOP": {
+          "visible": true,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/RADAR_BACK_LEFT": {
+          "visible": true,
+          "colorField": "x",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/RADAR_BACK_RIGHT": {
+          "visible": true,
+          "colorField": "x",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/RADAR_FRONT": {
+          "visible": true,
+          "colorField": "x",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/RADAR_FRONT_LEFT": {
+          "visible": true,
+          "colorField": "x",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/RADAR_FRONT_RIGHT": {
+          "visible": true,
+          "colorField": "x",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        },
+        "/pose": {
+          "visible": true
+        },
+        "/imu": {
+          "visible": true
+        },
+        "/gps": {
+          "visible": true
+        },
+        "/diagnostics": {
+          "visible": true
+        },
+        "/tf": {
+          "visible": true
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    },
+    "AetherionAI!2a6bcb6": {
+      "activeTab": "gapFinder",
+      "cosmosReasonEndpoint": "",
+      "cosmosPredictEndpoint": "",
+      "gaps": [],
+      "simJobs": [],
+      "debugHistory": []
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "direction": "row",
+    "first": "Image!3vh4ctn",
+    "second": {
+      "first": "3D!18i6zy7",
+      "second": "AetherionAI!2a6bcb6",
+      "direction": "row",
+      "splitPercentage": 69
+    },
+    "splitPercentage": 30
+  }
+}
